@@ -38,6 +38,8 @@ public class TC7and8 {
     driver.findElement(By.cssSelector("span.nav-cart-icon.nav-sprite")).click();
     assertTrue((driver.findElements(By.partialLinkText("Dell Latitude E5450")).size() > 0) ? true:false);
     driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	
+	//test comment
   }
 
   @AfterClass(alwaysRun = true)
